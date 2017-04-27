@@ -5,8 +5,8 @@ import alujava.lesson02.deck.*;
 public class App {
 
 	public static void main(String[] args) {
-		//doSomething(new Deck36());
-		//doSomething(new Deck52());
+		doSomething(new Deck36());
+		doSomething(new Deck52());
 	}
 	
 	private static void doSomething(DeckIntf deck) {
