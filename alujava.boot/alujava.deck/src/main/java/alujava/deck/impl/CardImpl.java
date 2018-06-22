@@ -6,10 +6,15 @@ import alujava.deck.CardSuit;
 
 public class CardImpl implements Card {
 
-	private final CardSuit cardSuit;
-	private final CardRank cardRank;
+	private CardSuit cardSuit;
+	private CardRank cardRank;
+	
+	public CardImpl() {
+		super();
+	}
 	
 	public CardImpl(CardSuit cardSuit, CardRank cardRank) {
+		this();
 		this.cardSuit = cardSuit;
 		this.cardRank = cardRank;
 	}
